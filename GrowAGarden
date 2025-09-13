@@ -1,1 +1,6 @@
-
+game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "Loading Gui",
+    Text = "Please Wait",
+    Duration = 5
+})
+loadstring(game:HttpGet("https://pastefy.app/guKNJEEy/raw"))()
