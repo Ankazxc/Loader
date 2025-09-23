@@ -2,7 +2,7 @@ local function Dark()
 game:GetService("StarterGui"):SetCore("SendNotification", {
     Title = "Loading Gui",
     Text = "Please Wait",
-    Duration = 5
+    Duration = 8
 })
 loadstring(game:HttpGet("https://pastefy.app/GwXc4pq9/raw"))()
 end
