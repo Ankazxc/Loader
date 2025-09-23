@@ -1,1 +1,5 @@
-print("Script Loading")
+game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "Loading Gui",
+    Text = "Please Wait",
+    Duration = 5
+})
