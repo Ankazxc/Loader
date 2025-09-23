@@ -1,5 +1,5 @@
 game:GetService("StarterGui"):SetCore("SendNotification", {
     Title = "Loading Gui",
     Text = "Please Wait",
-    Duration = 5
+    Duration = 8
 })
