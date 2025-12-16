@@ -1,4 +1,4 @@
 loadstring(game:HttpGet("https://pastefy.app/827SJ6WL/raw"))()
 task.spawn(function()
-loadstring(game:HttpGet("http://109.71.240.235:3910/cdn/mm2eventVisual.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Ankazxc/Loader/refs/heads/main/Other/MurderMystery2"))()
 end)
