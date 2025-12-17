@@ -1,1 +1,0 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Ankazxc/Loader/refs/heads/main/Universel", true))()
