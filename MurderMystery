@@ -1,4 +1,10 @@
-loadstring(game:HttpGet("https://pastefy.app/iyeFWD44/raw"))()
-task.spawn(function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Ankazxc/Loader/refs/heads/main/Other/MurderMystery2"))()
-end)
+local function DarkMm2()
+    loadstring(game:HttpGet("https://pastefy.app/iyeFWD44/raw"))()
+end
+
+local function LoadUi()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Ankazxc/Loader/refs/heads/main/Other/MurderMystery2"))()
+end
+
+DarkMm2()
+LoadUi()
