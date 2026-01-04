@@ -6,6 +6,8 @@ elseif game.PlaceId == 96342491571673 or game.PlaceId == 109983668079237 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Ankazxc/Loader/refs/heads/main/StealABrainrot"))()
 elseif game.PlaceId == 113489516847696 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Ankazxc/Loader/refs/heads/main/MyFishingBrainrot"))()
+elseif game.PlaceId == 142823291 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Ankazxc/Loader/refs/heads/main/MurderMystery"))()
 else
     game.Players.LocalPlayer:Kick("Game not Supported!")
 end
