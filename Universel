@@ -11,7 +11,7 @@ loadstring(game:HttpGet("https://pastefy.app/ZA9i9qxX/raw"))()
 elseif game.PlaceId == 142823291 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Ankazxc/Loader/refs/heads/main/MurderMystery"))()
 elseif game.PlaceId == 136801880565837 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Ankazxc/Loader/refs/heads/main/Flick"))()
+loadstring(game:HttpGet("https://pastefy.app/OO9tyzIb/raw"))()
 elseif game.PlaceId == 131623223084840 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Ankazxc/Loader/refs/heads/main/EscapeTsunamiForBrainrots!"))()
 else
